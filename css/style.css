@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+/*html{
+    scroll-behavior: smooth;
+}*/
+
 *{
     padding: 0;
     margin: 0;
@@ -9,17 +13,23 @@
 }
 
 nav{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
     height: 50px;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.084);
     color: white;
-    background-color: rgb(235, 14, 14);
 }
-.menu img{
+.logo-home img{
     height: 75px;
     cursor: pointer;
+    transition: .3s linear;
+}
+.logo-home img:hover{
+    height: 83px;
 }
 
 .links ul{
@@ -31,6 +41,16 @@ nav{
     margin-left: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: .3s linear;
+}
+.links ul li:hover{
+    font-size: 18px;
+    color: red;
+}
+.menuHamburger .fa-stream{
+    margin-right: 60px;
+    color: white;
+    margin-left: 20px;
 }
 
 .home{
@@ -38,8 +58,18 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 70px);
+    height: 100vh;
+    color: white;
+    background: url(https://wallpapers.com/images/hd/red-gaming-1920-x-1080-54rtfpxzb5fo7im4.jpg
+    );
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
+.logo-container img{
+    height: 200px;
 }
 .home h1{
     font-family: "Permanent Marker", cursive;
@@ -47,6 +77,9 @@ nav{
 }
 .home .slogan{
     width: 30%;
+    background-color: rgba(0, 0, 0, 0.471);
+    border-radius: 50px;
+    padding: 10px;
 }
 .home .slogan p{
     font-weight: bold;
@@ -63,15 +96,20 @@ nav{
     margin-top: 20px;
     padding: 10px;
     border: none;
+    color: white;
     font-size: 1.1rem;
     cursor: pointer;
 }
 .button-container .icon-next{
-    background-color: red;
+    background-color: white;
+    color: red;
     border-radius: 50%;
     padding: 10px;
     transition: .3s linear;
 }
 .button-container .icon-next:hover{
     font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
