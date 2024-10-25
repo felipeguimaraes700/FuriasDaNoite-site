@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50px;
+    color: white;
+    background-color: rgb(235, 14, 14);
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+}
+.links ul li{
+    margin-left: 20px;
+}
