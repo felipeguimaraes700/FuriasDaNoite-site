@@ -76,9 +76,10 @@ nav{
 .logo-container img{
     height: 200px;
 }
-.home h1{
+.title-container h2{
     font-family: "Permanent Marker", cursive;
     font-size: 4rem;
+    text-align: center;
 }
 .home .slogan{
     width: 30%;
