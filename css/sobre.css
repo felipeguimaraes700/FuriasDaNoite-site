@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-}
 
 .sobre{
     color: white;
@@ -15,6 +10,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 30px;
 }
 
 .title-container h1{
