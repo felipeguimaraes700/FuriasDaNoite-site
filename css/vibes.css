@@ -18,9 +18,11 @@ html{
     background: linear-gradient(-45deg, rgb(255, 176, 176), rgb(121, 7, 7));
     padding: 20px 40px;
     text-align: center;
-    background: url(https://img.freepik.com/vetores-gratis/curva-vermelha-em-um-fundo-cinza_53876-99542.jpg?ga=GA1.1.1332686528.1730319490&semt=ais_hybrid);
+    background: url(https://img.freepik.com/vetores-gratis/curva-vermelha-em-um-vetor-de-fundo-cinza_53876-165845.jpg?ga=GA1.1.2146191799.1729873374&semt=ais_hybrid);
+    background-position: left center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
 }
 
 .title-container-vibe h2{
