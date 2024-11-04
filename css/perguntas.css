@@ -20,3 +20,18 @@ header {
     background-position: center;
     height: 280px;
 }
+
+details{
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 600px;
+    cursor: pointer;
+}
+
+summary{
+    background-color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
