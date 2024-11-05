@@ -10,6 +10,11 @@
 
 .perguntas-frequentes{
     padding-bottom: 50px;
+    padding-bottom: 60px;
+    background-color: rgb(214, 214, 214);
+    background: url(https://img.freepik.com/fotos-gratis/visao-3d-de-cranios_23-2150472967.jpg?ga=GA1.1.2146191799.1729873374&semt=ais_hybrid);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -31,6 +36,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
 }
 
 .intrtoducao-faq{
@@ -38,6 +44,7 @@ header {
     margin: 40px 0px;
     font-size: 1.3rem;
     text-align: center;
+    color: white;
 }
 
 details{
