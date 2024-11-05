@@ -46,6 +46,7 @@ details{
     border: 1px solid black;
     margin-bottom: 10px;
     border-radius: 20px;
+    background-color: rgb(255, 185, 185);
     transition: .3s linear;
 }
 

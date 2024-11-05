@@ -73,6 +73,11 @@ nav{
     background-repeat: no-repeat;
 
 }
+
+.title-halloween{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
 .logo-container img{
     height: 200px;
 }
@@ -91,6 +96,26 @@ nav{
     font-weight: bold;
     text-align: center;
     font-size: 1.2rem;
+}
+
+.container-button-ingressos{
+    margin-top: 20px;
+}
+
+.container-button-ingressos button{
+    height: 50px;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+.container-button-ingressos button:hover{
+    background-color: red;
+    color: white;
+    font-size: 15px;
 }
 
 .button-container{
