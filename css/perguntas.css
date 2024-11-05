@@ -8,6 +8,10 @@
     font-family: "Poppins";
 }
 
+.perguntas-frequentes{
+    padding-bottom: 50px;
+}
+
 header {
     background-color: aquamarine;
     display: flex;
@@ -40,6 +44,7 @@ details{
     width: 800px;
     cursor: pointer;
     border: 1px solid black;
+    margin-bottom: 10px;
     border-radius: 20px;
     transition: .3s linear;
 }
@@ -60,4 +65,12 @@ summary:hover{
 
 .container-datails{
     padding: 20px;
+}
+
+details ul{
+    list-style: none;
+}
+
+details ul li{
+    margin-bottom: 5px;
 }
