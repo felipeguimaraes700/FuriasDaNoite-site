@@ -5,6 +5,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Poppins";
 }
 
 header {
@@ -21,17 +22,42 @@ header {
     height: 280px;
 }
 
+.container-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intrtoducao-faq{
+    width: 800px;
+    margin: 40px 0px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
 details{
-    background-color: blueviolet;
-    border: 2px solid black;
-    width: 600px;
+    width: 800px;
     cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: .3s linear;
 }
 
 summary{
-    background-color: aliceblue;
+    background-color: rgb(227, 50, 50);
     height: 50px;
     display: flex;
     align-items: center;
     padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .3s linear;
+}
+summary:hover{
+    color: white;
+}
+
+.container-datails{
+    padding: 20px;
 }
