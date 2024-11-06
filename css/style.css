@@ -51,12 +51,22 @@ nav{
     font-size: 18px;
     color: red;
 }
-.menuHamburger .fa-stream{
+
+.container-open-close-menu{
     margin-right: 60px;
-    color: white;
-    margin-left: 20px;
+}
+.container-open-close-menu .fa-stream,.fa-window-close{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    cursor: pointer;
 }
 
+.container-open-close-menu .fa-stream{
+    
+}
+.container-open-close-menu .fa-window-close{
+    
+}
 .home{
     display: flex;
     align-items: center;
@@ -142,4 +152,36 @@ nav{
     font-weight: bold;
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 870px) {
+    .logo-home{
+        display: none;
+    }
+    
+    nav{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        margin-bottom: 30px;
+    }
+
+    .menuHamburger .fa-window-close{
+        position: absolute;
+        display: block;
+        top: 20px;
+        right: 20px;
+    }
 }
